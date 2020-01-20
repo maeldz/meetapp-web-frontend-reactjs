@@ -1,84 +1,59 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/54718471/65910290-cb80d000-e3a0-11e9-94b9-3a6523de565a.png">
+# :rocket: meetapp-web-reactjs
 
-<img src="https://user-images.githubusercontent.com/54718471/65910292-cb80d000-e3a0-11e9-9dce-d6d54ecc8fe0.png">
+## :computer: Preview
 
-<img src="https://user-images.githubusercontent.com/54718471/65910293-cc196680-e3a0-11e9-87ec-22b81dd6bebf.png">
+- You can see the web preview printscreens [here](/preview).
 
-<img src="https://user-images.githubusercontent.com/54718471/65910299-cc196680-e3a0-11e9-91cd-3c5696a9bf33.png">
+### :key: Authentication
 
-<img src="https://user-images.githubusercontent.com/54718471/65910294-cc196680-e3a0-11e9-8e2f-23ecb33f5168.png">
+- [x] The user can login using e-mail and password.
+- [x] I have used JWT to authenticate the user.
+- [x] All login fields are checked via Yup.
 
-<img src="https://user-images.githubusercontent.com/54718471/65910296-cc196680-e3a0-11e9-93f0-37c7ac50b409.png">
+## :man: User register and update
 
-<img src="https://user-images.githubusercontent.com/54718471/65910297-cc196680-e3a0-11e9-8638-e5b2646bcaaa.png">
-</p>
+- [x] The user can register using name, e-mail and password.
+- [x] To update the password user need to send a password confirmation and the old password.
+- [x] User passwords are all encripted.
+- [x] All register and update field requests are checked via Yup.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :calendar: MeetUp subscription
 
-## Available Scripts
+- [x] The user can subscribe to meetups that are not of him.
+- [x] The user can't subscribe to meetups that already happened.
+- [x] The user can't subscribe to the same meetup two times.
+- [x] The user can't subscribe to meetups that happen at the same time.
+- [x] The owner of the meetup receive a email when a user subscribe to one of his meetups.
 
-In the project directory, you can run:
+## :bookmark_tabs: MeetUps list
 
-### `npm start`
+- [x] MeetUps can be list by date and are paged by 10 meetups.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :round_pushpin: Subscription list
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- [x] There is a route to list all future meetups that the current user is subscribed.
 
-### `npm test`
+## :exclamation: Possible improvements
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add cache to routes like the meetup list route.
 
-### `npm run build`
+## :wrench: Running the project
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- First you need to set up and initialize the [backend](https://github.com/maeldz/meetapp-backend-nodejs).
+- Install docker and create a postgres and redis container.
+- Clone this repository.
+- Install all dependencies using the command `yarn`.
+- Run `yarn start`.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## :fire: Used technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ReactJS
+- Styled Components
+- Reactotron
+- Redux
+- Redux Saga
+- Other React libs.
 
-### `npm run eject`
+## :man: Contributors
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- @maeldz
