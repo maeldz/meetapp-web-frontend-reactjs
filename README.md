@@ -39,8 +39,7 @@
 
 ## :wrench: Running the project
 
-- First you need to set up and initialize the [backend](https://github.com/maeldz/meetapp-backend-nodejs).
-- Install docker and create a postgres and redis container.
+- First you need to set up and initialize the [server](https://github.com/maeldz/meetapp-backend-nodejs).
 - Clone this repository.
 - Install all dependencies using the command `yarn`.
 - Run `yarn start`.
